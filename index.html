@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ပါရာဇိကဏ် နည်း+ဥပစာ</title>
+    
+    <!-- CSS (Website ဒီဇိုင်း ပုံဖော်ခြင်း) -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: white;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 10px;
+            background-color: #ddd;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header အပိုင်း -->
+    <header>
+        <h1>မင်္ဂလာပါ၊ ဝဘ်ဆိုက်မှ ကြိုဆိုပါတယ်။</h1>
+    </header>
+
+    <!-- Main Content အပိုင်း -->
+    <main>
+        <div class="card">
+            <h2>HTML & CSS အခြေခံနမူနာ</h2>
+            <p>ဒါကတော့ HTML, CSS နဲ့ JavaScript အသုံးပြုပြီး ဖန်တီးထားတဲ့ ရိုးရှင်းတဲ့ ဝဘ်ဆိုက် စာမျက်နှာတစ်ခု ဖြစ်ပါတယ်။</p>
+            
+            <!-- JavaScript ဖြင့် ချိတ်ဆက်ထားသော Button -->
+            <button onclick="showMessage()">ဒီမှာ နှိပ်ပါ</button>
+            <p id="greetingText" style="color: #0073e6; font-weight: bold; margin-top: 15px;"></p>
+        </div>
+    </main>
+<embed src="book.pdf" width="100%" height="700px">
+
+    <!-- Footer အပိုင်း -->
+    <footer>
+        <p>© 2026 My Website. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript (Interactive အလုပ်လုပ်ခိုင်းခြင်း) -->
+    <script>
+        function showMessage() {
+            document.getElementById("greetingText").innerText = "ခလုတ်ကို နှိပ်လိုက်သည့်အတွက် ကျေးဇူးတင်ပါတယ်။!";
+        }
+    </script>
+
+</body>
+</html>
